@@ -19,24 +19,36 @@ import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 function App() {
   return (
     <div>
-      <Box
-        sx={{
-          boxShadow: 1,
-          borderRadius: 1,
-          p: 2,
-          height: 0.1 * window.innerHeight,
-          backgroundSize: "cover",
-        }}
-      >
-        <Typography variant="h5">Hello, I'm</Typography>
-        <Typography variant="h3">Gary Nye,</Typography>
-        <br></br>
-        <a style={{ textDecoration: "none" }} href="mailto:gary@garynye.com">
-          <Button variant="contained">Email Me</Button>
-        </a>
-      </Box>
-
       <Grid container spacing={2}>
+        <Grid
+          item={true}
+          xs={12}
+          sm={12}
+          direction="column"
+          alignItems="center"
+          justifyContent="center"
+        >
+          <Box
+            sx={{
+              boxShadow: 1,
+              borderRadius: 1,
+              p: 2,
+              height: 0.1 * window.innerHeight,
+              backgroundSize: "cover",
+            }}
+          >
+            <Typography variant="h5">Hello, I'm</Typography>
+            <Typography variant="h3">Gary Nye,</Typography>
+            <br></br>
+            <a
+              style={{ textDecoration: "none" }}
+              href="mailto:gary@garynye.com"
+            >
+              <Button variant="contained">Email Me</Button>
+            </a>
+          </Box>
+        </Grid>
+        <Grid item={true} xs={12} sm={12}></Grid>
         <Grid item={true} xs={0} sm={2}></Grid>
         <Grid item={true} xs={12} sm={2}>
           <Card sx={{ margin: 2, maxWidth: 150, backgroundColor: "#FFFFFF" }}>
@@ -351,10 +363,10 @@ function App() {
         </Grid>
         <Grid item={true} xs={12} sm={6}>
           <Typography variant="h5" color="#0288d1">
-            Ford Motor Company
+            Univeristy of Michigan - Ross School of Business
           </Typography>
           <Typography variant="h6" color="#388e3c">
-            Global Launch Strategy Engineer
+            Master of Business Administration - Strategy
           </Typography>
           <Typography variant="subtitle2">
             Ann Arbor, MI from 2007 to 2009
