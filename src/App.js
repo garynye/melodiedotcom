@@ -1,7 +1,6 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
-import "./App.css";
 import { Typography } from "@mui/material";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
@@ -15,39 +14,52 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
+import CardContent from "@mui/material/CardContent";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <Grid container spacing={2}>
-        <Grid
-          item={true}
-          xs={12}
-          sm={12}
-          direction="column"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <Box
+       <Grid container spacing ={2}>
+        <Grid item={true} xs={12} sm={12}>
+          <Card
+            justifyContent="center"
+            align="center"
             sx={{
+              backgroundImage: `url("https://res.cloudinary.com/assurily/image/upload/v1638810851/garynyedotcom/IMG_5190_nhde57_dwda6q.webp")`,
               boxShadow: 1,
               borderRadius: 1,
               p: 2,
-              height: 0.1 * window.innerHeight,
+              height: 0.6 * window.innerHeight,
+              backgroundPosition: "center",
               backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              width: "100",
+              overflowX: "hidden",
+              
             }}
           >
-            <Typography variant="h5">Hello, I'm</Typography>
-            <Typography variant="h3">Gary Nye,</Typography>
-            <br></br>
-            <a
-              style={{ textDecoration: "none" }}
-              href="mailto:gary@garynye.com"
-            >
-              <Button variant="contained">Email Me</Button>
-            </a>
-          </Box>
+            <CardContent>
+              <Box sx={{ height: 0.2 * window.innerHeight }}></Box>
+              <Typography variant="h5" color="common.white">
+                Hello, I'm
+              </Typography>
+              <Typography variant="h3" color="common.white">
+                Gary Nye
+              </Typography>
+              <br></br>
+              <a
+                style={{ textDecoration: "none" }}
+                href="mailto:gary@garynye.com"
+              >
+                <Button variant="contained">Email Me</Button>
+              </a>
+            </CardContent>
+          </Card>
         </Grid>
+      </Grid>
+      <Grid container spacing={2}>
+        <Grid item={true} xs={12} sm={12}></Grid>
         <Grid item={true} xs={12} sm={12}></Grid>
         <Grid item={true} xs={0} sm={2}></Grid>
         <Grid item={true} xs={12} sm={2}>
