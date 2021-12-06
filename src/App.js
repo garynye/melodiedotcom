@@ -64,7 +64,7 @@ function App() {
           <Card sx={{ margin: 2, maxWidth: 150, backgroundColor: "#FFFFFF" }}>
             <CardMedia
               component="img"
-              image="https://res.cloudinary.com/assurily/image/upload/v1638820376/garynyedotcom/bridgestone-mark-color_vwwla5.png"
+              image="https://media-exp1.licdn.com/dms/image/C510BAQFG44YoQsjgdQ/company-logo_200_200/0/1519963312168?e=1646870400&v=beta&t=D6M-TeDvFE-D8vUxzyDi7KqgRaHeShRxQhvorE0fOBw"
               alt="Bridgestone"
             />
           </Card>
