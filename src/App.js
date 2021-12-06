@@ -20,23 +20,21 @@ import "./App.css";
 function App() {
   return (
     <div>
-       <Grid container spacing ={2}>
+      <Grid container spacing={2}>
         <Grid item={true} xs={12} sm={12}>
           <Card
             justifyContent="center"
             align="center"
             sx={{
-              backgroundImage: `url("https://res.cloudinary.com/assurily/image/upload/v1638810851/garynyedotcom/IMG_5190_nhde57_dwda6q.webp")`,
+              backgroundImage: `url("https://res.cloudinary.com/assurily/image/upload/v1638831403/garynyedotcom/IMG_5190_nhde57_dwda6q.webp")`,
               boxShadow: 1,
               borderRadius: 1,
               p: 2,
               height: 0.6 * window.innerHeight,
-              backgroundPosition: "center",
+              backgroundPosition: "left",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               width: "100",
-              overflowX: "hidden",
-              
             }}
           >
             <CardContent>
