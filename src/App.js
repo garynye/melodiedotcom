@@ -80,7 +80,7 @@ function App() {
             }}
           >
             <Typography variant="h4">
-              <SettingsInputAntennaIcon /> My Journey
+              <SettingsInputAntennaIcon /> My Journey {" "}
               <SettingsInputAntennaIcon />
             </Typography>
           </Card>
