@@ -21,7 +21,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import RemoveIcon from "@mui/icons-material/Remove";
 import { useState, useEffect } from "react";
-import "./App.css";
+
 
 function App() {
 
