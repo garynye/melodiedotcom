@@ -20,9 +20,24 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import RemoveIcon from "@mui/icons-material/Remove";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
+
+  const [width, setWidth] = useState (window.innerWidth);
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 768;
   return (
     <div>
       <Grid container spacing={2}>
@@ -35,7 +50,7 @@ function App() {
               boxShadow: 1,
               borderRadius: 1,
               p: 2,
-              height: 0.6 * window.innerHeight,
+              height: isMobile ? window.innerHeight : 0.6 * window.innerHeight,
               backgroundPosition: "left",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -43,7 +58,13 @@ function App() {
             }}
           >
             <CardContent>
-              <Box sx={{ height: 0.2 * window.innerHeight }}></Box>
+              <Box
+                sx={{
+                  height: isMobile
+                    ? 0.4 * window.innerHeight
+                    : 0.2 * window.innerHeight,
+                }}
+              ></Box>
               <Typography variant="h5" color="common.white">
                 Hello, I'm
               </Typography>
