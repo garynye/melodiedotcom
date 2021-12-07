@@ -19,7 +19,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import SettingsInputAntennaIcon from "@mui/icons-material/SettingsInputAntenna";
+import RemoveIcon from "@mui/icons-material/Remove";
 import "./App.css";
 
 function App() {
@@ -80,8 +80,7 @@ function App() {
             }}
           >
             <Typography variant="h4">
-              <SettingsInputAntennaIcon /> My Journey {" "}
-              <SettingsInputAntennaIcon />
+              <RemoveIcon /> My journey <RemoveIcon />
             </Typography>
           </Card>
         </Grid>
@@ -243,7 +242,11 @@ function App() {
               id="panel1a-header"
             >
               <Typography variant="body2">
-                Leadership team for Mars Petcare US private label business.
+                As a member of the Leadership team for Mars Petcare US' private
+                label business, I also managed team of purchasing managers for
+                all global dry ingredients for Mars Petcare ($1B annual spend).
+                Additionally had responsibility for Supplier Quality and audit
+                programs for the Nutro Company, a division of Mars Inc.
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -258,7 +261,10 @@ function App() {
                   <ListItemIcon>
                     <ArrowCircleRightIcon />
                   </ListItemIcon>
-                  <ListItemText primary="Designed Mars Strategic Operations Methodology to address the need for a robust analytical framework to optimize internal and external operation planning. Initial categories are on track for October 2015." />
+                  <ListItemText
+                    primary="Developed and Launched a 6 step Supply Chain Operations Strategy for Mars Inc to standardize supplier operations and inbound material management. Result was a consistently repeatable process to maintain material supply to Mars manufacturing locations that gave clear visibility to leadership on the health of inbound operations.
+"
+                  />
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
@@ -282,7 +288,12 @@ function App() {
               id="panel1a-header"
             >
               <Typography variant="body2">
-                Responsible for Dry Dog shopper based research.
+                As a category insights researcher, I had complete responsibility
+                for the Dry Dog category path to purchase, representing $2B in
+                sales for Mars Petcare US. I designed and built a state of the
+                art research facility to enhance my research and create aisle
+                redesigns that were deployed to all of the customer account
+                teams for execution.
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -324,7 +335,12 @@ function App() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="body2">GLDP Trade.</Typography>
+              <Typography variant="body2">
+                In the Sales Operations team I had responsibility for
+                implementing a new Price Card as well as refreshing the customer
+                segmentation based on measurable criteria to properly allocate
+                trade dollars across retailers.
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <List dense>
@@ -353,7 +369,12 @@ function App() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="body2">GLDP Purchasing.</Typography>
+              <Typography variant="body2">
+                My first role out of Business School centered around the
+                complete redesign and execution of the outbound distribution
+                footprint for Mars Petcare US. I also had responsibility for all
+                inbound transportation with totals exceeding $100M annual spend.
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <List dense>
@@ -406,7 +427,14 @@ function App() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="body2">Ford Global Strategy.</Typography>
+              <Typography variant="body2">
+                After completion of the Ford College Graduate Program, I entered
+                New Model Programs, a department that takes new model vehicles
+                from the Virtual Prototype phase all the way through launch and
+                into post-production. My role focused around global alignment of
+                launch methods and regular monitoring of each new vehicle line
+                in the launch process.
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <List dense>
@@ -443,7 +471,11 @@ function App() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="body2">FCG.</Typography>
+              <Typography variant="body2">
+                The Ford College Graduate Program is a multi-year rotational
+                program designed to expose new engineers to all areas of the
+                company from engineering, manufacturing, to finance.
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <List dense>
