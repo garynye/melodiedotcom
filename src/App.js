@@ -49,7 +49,7 @@ function App() {
               borderRadius: 1,
               p: 2,
               height: isMobile ? window.innerHeight : 0.6 * window.innerHeight,
-              backgroundPosition: "left",
+              backgroundPosition: "15% 0%",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               width: "100",
