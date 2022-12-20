@@ -551,7 +551,14 @@ function App() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="body2">SUMMARY.</Typography>
+              <Typography variant="body2">
+                As an intelligence officer in the United States Air Force, I led
+                a team that discovered 140 IEDs and increased available
+                intelligence by 250% through the use of weapons systems video. I
+                received the AF Achievement Medal for this accomplishment. I
+                also planned 28 reconnaissance flights per day in Iraq and
+                Afghanistan, leading to the location of terrorist camps.
+              </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <List dense>
@@ -575,6 +582,7 @@ function App() {
                 </ListItem>
               </List>
             </AccordionDetails>
+          </Accordion>
         </Grid>
         <Grid item={true} xs={0} sm={2}></Grid>
         <Grid item={true} xs={0} sm={2}></Grid>
@@ -595,7 +603,6 @@ function App() {
             Master of Business Administration
           </Typography>
           <Typography variant="subtitle2">December 2006</Typography>
-
         </Grid>
         <Grid item={true} xs={0} sm={2}></Grid>
         <Grid item={true} xs={0} sm={2}></Grid>
@@ -615,9 +622,7 @@ function App() {
           <Typography variant="h6" color="#388e3c">
             BA, French, Russian
           </Typography>
-          <Typography variant="subtitle2">
-            St. Paul, MN | May 2003
-          </Typography>
+          <Typography variant="subtitle2">St. Paul, MN | May 2003</Typography>
 
           <List dense>
             <ListItem>
