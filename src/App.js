@@ -131,13 +131,13 @@ function App() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="body2" paragraph>
+              <Typography variant="body2">
                 As the Senior Director of Marketing for the Dry Dog Food
                 Portfolio, I was responsible for the P&L and three-year
                 strategic growth plans for the US Dry Dog portfolio, which had over $2 billion in sales. My team included a 15-person brand marketing team and a 12-person cross-functional team, and we worked to deliver growth strategies, innovation and renovation pipelines, and white space opportunities to capture share for the Mars brand.
-                
+                <br />
                 I also implemented a successful ecommerce strategy and partnered with the D-Commerce, Sales, and Analytics teams to drive growth on Amazon and Chewy, resulting in a 37.6% increase for the Iams brand. In addition, I led the marketing efforts for four global brands and worked with brand teams from Europe, Russia, Latin America, and Asia to deliver global innovations and brand communications.
-                
+                <br />
                 I also implemented purpose marketing campaigns and initiatives focused on diversity and inclusion, and I authored the first differentiated development plans to formalize mentorship and break down barriers within the department. Overall, I exceeded all targets for revenue, margin, and earnings by over 5% each year.
               </Typography>
             </AccordionSummary>
