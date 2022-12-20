@@ -131,7 +131,7 @@ function App() {
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography variant="body2">
+              <Typography variant="body2" paragraph>
                 As the Senior Director of Marketing for the Dry Dog Food
                 Portfolio, I was responsible for the P&L and three-year
                 strategic growth plans for the US Dry Dog portfolio, which had over $2 billion in sales. My team included a 15-person brand marketing team and a 12-person cross-functional team, and we worked to deliver growth strategies, innovation and renovation pipelines, and white space opportunities to capture share for the Mars brand.
