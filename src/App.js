@@ -109,7 +109,7 @@ function App() {
           <Card sx={{ margin: 2, maxWidth: 150, backgroundColor: "#FFFFFF" }}>
             <CardMedia
               component="img"
-              image="https://media-exp1.licdn.com/dms/image/C4D0BAQFxhsUQuX5Qyg/company-logo_200_200/0/1561991494491?e=1646870400&v=beta&t=H-i2LrXQi-WF9SPeDmeF-sy2npJiLa8s2st6s4nDjLQ"
+              image="https://res.cloudinary.com/assurily/image/upload/v1671506558/melodienyedotcom/mars_grsurb.jpg"
               alt="Mars Incorporated"
             />
           </Card>
@@ -229,7 +229,7 @@ function App() {
           <Card sx={{ margin: 2, maxWidth: 150, backgroundColor: "#FFFFFF" }}>
             <CardMedia
               component="img"
-              image="https://media-exp1.licdn.com/dms/image/C560BAQHLLicW2Mwqlg/company-logo_200_200/0/1634233101851?e=1646870400&v=beta&t=2v-JrNP6VWbdQ9QMJFU2Q8UdjUpfxe2x4SpFJze4QxA"
+              image="https://res.cloudinary.com/assurily/image/upload/v1671506558/melodienyedotcom/kraft_m4g33x.jpg"
               alt="Kraft Foods"
             />
           </Card>
@@ -389,7 +389,7 @@ function App() {
           <Card sx={{ margin: 2, maxWidth: 150, backgroundColor: "#FFFFFF" }}>
             <CardMedia
               component="img"
-              image="https://media-exp1.licdn.com/dms/image/C4E0BAQEiOtYxa4RriA/company-logo_200_200/0/1519906599069?e=1646870400&v=beta&t=LgxfVaM03lbYGkFvhxxsl1dFbRWwi2JeCFfxIdBrJvo"
+              image="https://res.cloudinary.com/assurily/image/upload/v1671506558/melodienyedotcom/usaf_vtorlq.jpg"
               alt="US Air Force"
             />
           </Card>
@@ -479,7 +479,7 @@ function App() {
           <Card sx={{ margin: 2, maxWidth: 150, backgroundColor: "#FFFFFF" }}>
             <CardMedia
               component="img"
-              image="https://media-exp1.licdn.com/dms/image/C4D0BAQGvLO8bnXuAbg/company-logo_200_200/0/1519907056787?e=1646870400&v=beta&t=pcKAh_zlVJdjWtAM0Wnpd4zxnmNYV8upB_B14F_AYz8"
+              image="https://res.cloudinary.com/assurily/image/upload/v1671506558/melodienyedotcom/asu_eefjwp.jpg"
               alt="ASU"
             />
           </Card>
@@ -508,7 +508,7 @@ function App() {
           <Card sx={{ margin: 2, maxWidth: 150, backgroundColor: "#FFFFFF" }}>
             <CardMedia
               component="img"
-              image="https://media-exp1.licdn.com/dms/image/C560BAQH_jBQwDkpuwA/company-logo_200_200/0/1519900849845?e=1646870400&v=beta&t=VQSnOhfZX0rOvMfwNTCuyUw698OhVXu24A0fDM491BA"
+              image="https://res.cloudinary.com/assurily/image/upload/v1671506558/melodienyedotcom/thomas_befnky.jpg"
               alt="UST"
             />
           </Card>
